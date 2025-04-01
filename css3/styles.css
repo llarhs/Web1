@@ -1,0 +1,32 @@
+p.borda{
+    border-style: solid;
+    border-color: rgb(150, 40, 113);
+    border-width: 5px;
+}
+p.margem{
+    margin: 100px;
+    border-style: dashed;
+    color: cornflowerblue;
+}
+p.propriedade{
+    margin: 25px;
+    border-style: dotted;
+    padding: 20px;
+    color: rgb(247, 47, 147);
+}
+p.contorno{
+    color: #5a1010;
+    outline-style: double;
+    outline-color: darkred;
+    border-style: solid;
+    border-color: firebrick;
+    padding: 15px;
+    margin: 40px;
+}
+.imagem{
+    width: 50%;
+    height: auto; 
+}
+.center{
+    text-align: center;
+}
