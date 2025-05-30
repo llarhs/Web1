@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>JavaScript</title>
+    </head>
+    <body>
+        <script type="text/javascript">
+            function iniciar(){
+                let nome = "Lararara"
+                document.write("<h1>O meu nome e + nome +.</h1>")
+            }
+            function login(){
+                let nome = prompt("Qual é o seu nome?", "Lararara");
+                //alert("Olá, meu nome é " + nome.toUpperCase() + ".");
+                alert(`Ola meu nome e ${nome.toUpperCase}.`);
+            }
+        </script>
+
+        <h1>Identificador</h1>
+        <input type="button" value="Login" onclick="login()">
+    </body>
+</html>
